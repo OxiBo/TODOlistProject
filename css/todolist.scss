@@ -1,5 +1,21 @@
-$mainColor: #1c4fa0;
+$mainColor: lightblue;
 
 body {
 background-color: $mainColor;
+}
+
+div#container {
+    background-color: lightgrey;
+    border: 2px solid gray;
+    width: 360px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.completed {
+    color: gray;
+    text-decoration: line-through;
 }
