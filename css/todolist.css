@@ -1,17 +1,70 @@
 body {
-  background-color: lightblue; }
+  font-family: 'Merriweather', serif;
+  background: #000046;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1CB5E0, #000046);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #1CB5E0, #000046); }
 
 div#container {
-  background-color: lightgrey;
-  border: 2px solid gray;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   width: 360px;
-  margin: 0 auto; }
-
-h2 {
-  text-align: center; }
-
-.completed {
-  color: gray;
-  text-decoration: line-through; }
+  margin: 100px auto; }
+  div#container h2 {
+    background-color: #2980b9;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: normal; }
+  div#container input {
+    display: none;
+    font-size: 15px;
+    background-color: #f7f7f7;
+    font-family: 'Merriweather', serif;
+    width: 100%;
+    box-sizing: border-box;
+    border: 3px solid rgba(0, 0, 0, 0);
+    padding: 13px 13px 13px 20px;
+    color: #2980b9; }
+  div#container input:focus {
+    background-color: white;
+    border: 3px solid #2980b9;
+    outline: none; }
+  div#container .completed {
+    color: gray;
+    text-decoration: line-through; }
+  div#container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  div#container li {
+    background-color: white;
+    height: 40px;
+    line-height: 40px;
+    color: #444; }
+  div#container li:nth-child(2n) {
+    background-color: #f7f7f7; }
+  div#container span {
+    background: #e74c3c;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 0px;
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0; }
+  div#container li:hover span {
+    width: 40px;
+    opacity: 1.0; }
+  div#container .fa {
+    font-size: 18px; }
+  div#container .fa-plus {
+    float: right;
+    padding-top: 5px; }
 
 /*# sourceMappingURL=todolist.css.map */
