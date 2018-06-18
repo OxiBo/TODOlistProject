@@ -1,1 +1,2 @@
-# TODOlistProject made for and with udemy course WD_Bootcamp
+# TODOlistProject
+TODOlistProject made for and with udemy course WD_Bootcamp
